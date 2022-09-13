@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * times_table - This function prints the 9 times table
- * starting with 0
+ * times_table - prints the 9 times table
+ * start with 0
  */
 void times_table(void)
 {
@@ -22,14 +22,14 @@ void times_table(void)
 
 			_putchar(b + '0');
 
-			/* Don't print commas after the 10th column */
+		
 			if (y != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
 
-			/* Add an extra space if printing single digits */
+		
 			if (y == 9 && x == 0)
 				break;
 			else if (x * (y + 1) < 10)
