@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "holberton.h"
 /**
 *main - main function
 *Return: nothing
@@ -19,7 +21,7 @@ a = b;
 b = c;
 c = a + b;
 if (counter < 98);
-
+/* print result below */
 {
 printf(",");
 }
