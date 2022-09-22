@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /*
 * main - Entry point
@@ -6,11 +7,8 @@
 * Return: 0
 */
 
-
 int main(void)
-
 {
-
 int n;
 int a[5];
 int *p;
@@ -29,8 +27,8 @@ p = &n;
 */
 
 p[5]  = 98;
-
-/*so that this prints 98\n */
+i
+/* ...so that this prints 98\n */
 
 printf("a[2] = %d\n", a[2]);
 
