@@ -29,4 +29,6 @@ i++;
 }
 
 printf("%i, %i\n", sum1, sum2);
+
+return (0);
 }
