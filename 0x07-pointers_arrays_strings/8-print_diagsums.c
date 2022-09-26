@@ -10,7 +10,7 @@
 
 void print_diagsums(int *a, int size)
 {
-/* Declaring variables */
+/*Declaring variables*/
 int i;
 int sum1, sum2;
 
@@ -24,10 +24,8 @@ while (i < size) /*number repetitions*/
 sum1 = sum1 + *(a + i * size + i);
 sum2 = sum2 + *(a + i * size + size - i - 1);
 
-i++; /* add +1 */
+i++; /*add +1*/
 }
 
 printf("%i, %i\n", sum1, sum2);
-
-return (0);
 }
