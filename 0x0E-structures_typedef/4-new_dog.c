@@ -5,9 +5,9 @@ int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 /**
 * new_dog - function
-* @name: name of dog
-* @age: age of new doggo
-* @owner: owner of new doggo
+* @name:name of dog
+* @age:age of new doggo
+* @owner:owner of new doggo
 *
 * Description: function to create a new dog. Store copy of name & owner
 * Return: ptr, null if fail
@@ -69,11 +69,11 @@ return (index);
 }
 /**
 * _strcpy - function
-* @src: copy from
-* @dest: copy to
+* @src:copy from
+* @dest:copy to
 *
 * Description: copies strng pnted by src to dest with null
-* Return: char
+* Return: char.
 */
 char *_strcpy(char *dest, char *src)
 {
