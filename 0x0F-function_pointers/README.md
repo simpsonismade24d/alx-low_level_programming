@@ -5,3 +5,5 @@
    3i .This file should contain all the function prototypes and data structures used by the program. You can use this structure.
    3ii .This file should contain the 5 following functions (not more)
    3iii. This file should contain your main function only.
+4. Write a program that prints the opcodes of its own main function.
+
